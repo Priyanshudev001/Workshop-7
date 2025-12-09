@@ -1,0 +1,18 @@
+﻿@page "/profile"
+
+<div class="profile-container">
+    <img src="images/student1.jpg" alt="Student Photo" class="profile-photo" />
+
+    <h2 class="profile-name">@studentName</h2>
+
+    <p class="profile-course">Course: @courseName</p>
+
+    <p class="profile-batch">Batch Year: @batchYear</p>
+</div>
+
+@code {
+    string photoPath = "images/student1.jpg"; 
+    string studentName = "KP OLI";
+    string courseName = ".NET MAUI Hybrid Training";
+    string batchYear = "2025";
+}
